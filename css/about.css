@@ -1,0 +1,133 @@
+main>.banner img{
+    width: 100%;
+}
+main>nav.about.fixed{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    background-color: #fff;
+    min-width: 1200px;
+}
+main>nav.about ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20%;
+    border-bottom: 1px solid #ccc;
+}
+main>nav.about ul li{
+    cursor: pointer;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+}
+main>nav.about ul li.active{
+    background-color: #F5B750;
+    color: #f0f0f0;
+    transition: all .6s;
+}
+.content  h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #333;
+    margin: 0;
+    padding: 20px 0;
+}
+.content span{
+    margin: 0 auto;
+    display: block;
+    background-color: #222;
+    height: 1px;
+    width: 60px;
+}
+.content .aboutus.honnr p{
+    text-align: center;
+}
+.content .aboutus p{
+    text-indent: 2em;
+    line-height: 28px;
+    margin: 0;
+    padding: 20px 0;
+}
+.content .culture .title {
+    background-color: #F5B750;
+    margin-bottom: 30px;
+    padding: 40px;
+}
+.content .culture h3{
+    color:#fff;
+    margin-top: 0;
+}
+.content .culture h4{
+    text-align: center;
+    font-weight: 400;
+    color: #333;
+    font-size: 20px;
+}
+.content .culture span{
+    background-color: #fff;
+}
+.content .culture .dev span{
+    background-color: #222;
+}
+.content .culture .dev p.time{
+    font-size: 20px;
+    text-align: left;
+}
+.content .culture .dev ul.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0 20%;
+}
+.content .culture .dev ul.list li{
+    width: 50%;
+    margin: 0 20px;
+}
+.content .culture .dev ul.list span{
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+}
+.content .connectus img{
+    width: 100%;
+}
+.abtus-contact{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.abtus-contact .left{
+    width: 50%;
+    background-color: #F5B750;
+    position: relative;
+}
+.abtus-contact .left .bottom{
+    position: absolute;
+    right: 120px;
+    bottom: 30px;
+    color: #fff;
+}
+.abtus-contact .left h3{
+    color: #fff;
+}
+.abtus-contact .left span{
+    background-color: #fff;
+}
+.abtus-contact .left .text{
+    margin: 20px 0;
+}
+.abtus-contact .left img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 300px;
+}
+.abtus-contact .right{
+     width: 50%;
+}
+.abtus-contact img{
+    width: 100%;
+}
