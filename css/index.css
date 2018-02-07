@@ -39,23 +39,25 @@ main section.part2 {
 }
 main section.part2 .desc{
     position: absolute;
-    top: 40%;
+    top: 28%;
     left: 50%;
     transform: translateX(-50%);
 }
 main section.part2 .desc h2{
-    font-size: 4.8rem;
+    font-size: 4rem;
+    text-align: center;
     color: #fff;
 }
 main section.part2 .desc p{
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     margin: 1rem 0;
     color: #fff;
 }
 main section.part2 .desc a{
     display: block;
-    width: 100%;
-    line-height: 5rem;
+    width: 80%;
+    margin: 0 auto;
+    padding: .6rem 0;
     text-align: center;
     font-size: 2.4rem;
     color: #fff;
@@ -74,7 +76,7 @@ main section.part3 {
     background-color: #f5f5f5;
 }
 main section.part3 .news{
-    max-width: 120rem;
+    max-width: 1200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
