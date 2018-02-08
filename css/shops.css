@@ -1,0 +1,143 @@
+main .banner{
+    position: relative;
+}
+main .banner .content{
+    position: absolute;
+    height: 40%;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 8%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+main .banner .content>h2{
+    font-size: 3rem;
+    color: #fff;
+}
+main .banner .content>input{
+    width: 35%;
+    height: 16%;
+    padding-left: 2rem;
+    font-size: 1.4rem;
+    color: #ccc;
+    border-radius: 2rem;
+}
+main .banner .content>a>p{
+    font-size: 1.4rem;
+    padding-right: 1rem;
+    color: #fff;
+    
+}
+main .banner .content>a>p::after{
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-left: 1rem;
+    width: 0;vertical-align: middle;
+    margin-top: -.1rem;
+    border-width:  .5rem .8rem .5rem .8rem;
+    border-color: transparent transparent transparent #fff ;
+    border-style: solid;
+}
+
+/* body */
+main section.body .part1{
+    display: flex;
+    padding: 5rem 0;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+main section.body .title{
+    margin-bottom: 3rem;
+    text-align: center;
+}
+main section.body .title h3{
+    line-height: 3rem;
+    font-size: 2.4rem;
+    padding: 1rem 0;
+}
+main section.body .title>a::after{
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-left: 1rem;
+    width: 0;vertical-align: middle;
+    margin-top: -.1rem;
+    border-width:  .4rem .6rem .4rem .6rem;
+    border-color: transparent transparent transparent #333 ;
+    border-style: solid;
+}
+main section.body .part1 ul.list{
+    display: flex;
+    padding: 3rem 1rem 0 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-top: 1px solid #ccc;
+}
+main section.body .part1 ul.list li{
+    width: 30.33%;
+    margin: 1rem 0;
+}
+main section.body .part1 ul.list li>h4{
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+main section.body .part1 ul.list li>p{
+    padding: 1rem 0;
+}
+main section.body .part2{
+    background-color: #f5f5f5;
+    padding: 5rem 0;
+}
+main section.body .part2 .content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section.body .part2 .content>.list>li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    background-color: #fff;    
+}
+main section.body .part2 .content>.list>li>.left{
+    width: 30%;
+    padding: 2rem;
+}
+main section.body .part2 .content>.list>li>.left>h4{
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+main section.body .part2 .content>.list .right {
+    width: 60%;
+}
+main section.body .part2 .content>.list .right a{
+    display: block;
+}
+
+main section.body .part2 .content>.list>li>.left>a{
+    line-height: 3rem;
+}
+main section.body .part2 .content>.list>li>.left>a::after{
+    content: "";
+    display: inline-block;
+    height: 0;
+    margin-left: 1rem;
+    width: 0;vertical-align: middle;
+    margin-top: -.1rem;
+    border-width:  .4rem .6rem .4rem .6rem;
+    border-color: transparent transparent transparent #333 ;
+    border-style: solid;
+}
+
+
+

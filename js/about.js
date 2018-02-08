@@ -1,15 +1,29 @@
 $(function () {
-    //----------------固定导航栏-----------------------
-    (function(window){
+
+    // 缩放屏幕
+    $(window).on('resize', function () {
+        window.hideBar();
+        window.middleWidth();
+    })
+    //----------------导航栏-----------------------
+    ;(function (window) {
         function Method() {
             this.$ = $;
         }
         Method.prototype = {
+            hideBar() {
+                // 隐藏导航栏
+                if ($(window).width() < 640) {
+                    $('.about').hide();
+                } else {
+                    $('.about').show();
+                }
+            },
             fixedBar() {
                 //导航吸顶
                 $(window).on('scroll', function () {
                     //   console.log($('nav.about')[0].offsetHeight);
-    
+
                     if ($('nav.about').length > 0) { //判断是否为关于页面
                         if ($(window).scrollTop() > $('.banner')[0].offsetHeight + $('nav.about')[0].offsetHeight) {
                             $('.banner').css({
@@ -47,12 +61,27 @@ $(function () {
                 })
             }
         }
+        let method = new Method();        
         function doMethod() {
-            let method = new Method();
             method.fixedBar();
             method.toPosition();
             method.toTarget();
+            method.hideBar();
         }
         doMethod();
-    })(window)
+        window.hideBar = method.hideBar;
+    })(window);
+    // 响应式布局
+    ;(function(w){
+        function middleWidth(){
+            if($(w).width()<640){              
+                $('.culture .dev ul.list>li').css('width','100%');
+            }else{
+                $('.culture .dev ul.list>li').css('width','40%');
+            }
+        }
+        w.middleWidth = middleWidth;
+    })(window);
+
+
 })

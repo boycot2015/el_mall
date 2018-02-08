@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>意龙商城</title>
+    <title>shops</title>
     <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/shopcenter.css">
+    <link rel="stylesheet" href="./css/shops.css">
 </head>
 
 <body>
@@ -72,13 +72,13 @@
                         </div>
                     </li>
                     <li>
-                        <a href="/about.html">品牌</a>
+                        <a href="./about.html">品牌</a>
                     </li>
                     <li>
-                        <a href="./shopcenter.html">商城</a>
+                        <a href="./mall.html">商城</a>
                     </li>
                     <li>
-                        <a href="/">服务</a>
+                        <a href="./service.html">服务</a>
                     </li>
                     <li>
                         <a href="/">博客</a>
@@ -99,63 +99,77 @@
         </nav>
     </header>
     <main>
-        <div class="banner">
-            <img src="./images/S70.jpg" alt="">
-        </div>
-        <div class="el-container">
-            <section class="pro-list w">
-                <div class="part1">
-                    <ul class="pic-list">
+        <section class="banner">
+            <img src="./images/shops_banner.jpg" alt="">
+            <div class="content">
+                <h2>查找体验店</h2>
+                <input type="text" placeholder="搜索体验店">
+                <a href="./shopslist.html">
+                    <p>查看所有体验店</p>
+                </a>
+            </div>
+        </section>
+        <section class="body ">
+            <div class="part1 w">
+                <div class="title">
+                    <h3>附近明星店</h3>
+                    <a href="./shopslist.html">查看更多</a>
+                </div>
+                <ul class="list">
+                    <li>
+                        <h4>深圳福田深业上城店</h4>
+                        <p>广东省深圳市福田区莲花街道笋岗西路深业上城中国国际消费电子展示中心（CEEC）4F-402</p>
+                        <span>0755-83811186</span>
+                    </li>
+                    <li>
+                        <h4>深圳布吉南岭开放店</h4>
+                        <p>深圳市龙岗区南湾街道南岭村开放街8号</p>
+                        <span>0755-89218484</span>
+                    </li>
+                    <li>
+                        <h4>深圳龙岗嶂背店</h4>
+                        <p>广东省深圳市龙岗区嶂背路106号</p>
+                        <span>0755-23255061</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="part2">
+                <div class="content w">
+                    <div class="title">
+                        <h3>体验店活动</h3>
+                    </div>
+                    <ul class="list">
                         <li>
-                            <img src="./images/part1-pic1.jpg" alt="">
+                            <div class="left">
+                                <h4>    EL 上海超级旗舰店开业</h4>
+                                <span>开业时间：2017 年 12 月 24 日 15:00</span>
+                                <p>12月24日，魔都上海，在这个时尚界必争之地，EL 首家超级旗舰店将在这里盛大开业！</p>
+                                <a href="#">了解更多</a>
+                            </div>
                             <div class="right">
-                                <h3>意龙 S70</h3>
-                                <h4>户外首选手机</h4>
-                                <div class="text">
-                                    <span>RMB 818</span>
-                                    <a href="./shopcart.html">点击购买</a>
-                                </div>
+                                <a href="#">
+                                    <img src="./images/shops_pic1.jpg" alt="">
+                                </a>
                             </div>
                         </li>
                         <li>
-                            <img src="./images/part1-pic2.jpg" alt="">
-                            <div class="right">
-                                <h3>意龙 S70</h3>
-                                <h4>防水、防尘、防震</h4>
-                                <div class="text">
-                                    <span>RMB 818</span>
-                                    <a href="./shopcart.html">点击购买</a>
-                                </div>
+                            <div class="left">
+                                <h4>EL 快闪店</h4>
+                                <span>时间：2017 年 11 月 10 日~11 月 19 日</span>
+                                <p>EL 快闪店空降北上广深，时尚气息爆棚的设计风格吸引了大批时尚潮人和网红前来打卡，成为年轻用户新的拍照圣地。</p>
+                                <a href="#">了解更多</a>
+
                             </div>
-                        </li>
-                        <li>
-                            <img src="./images/part1-pic3.jpg" alt="">
                             <div class="right">
-                                <h3>意龙 S70</h3>
-                                <h4>64GB 机身内存，micro SD 拓展，最高达 128GB（专用槽）</h4>
-                                <div class="text">
-                                    <span>RMB 818</span>
-                                    <a href="./shopcart.html">点击购买</a>
-                                </div>
+                                <a href="#">
+                                    <img src="./images/shops_pic2.jpg" alt="">
+                                </a>
                             </div>
                         </li>
                     </ul>
-                    <div class="change-colorbar">
-                        <ul class="points">
-                            <li>
-                                <span></span>
-                            </li>
-                            <li>
-                                <span></span>
-                            </li>
-                            <li>
-                                <span></span>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
     <div class="ft-service">
         <ul class="w">
@@ -240,7 +254,7 @@
                     <div class="left">
                         <p>
                             © 2013-2018 EL. All Rights Reserved.(粤ICP备13088308号-1) </p>
-                        <p>粤公网安备 44030402000178号</p>
+                        <p> 粤公网安备 44030402000178号</p>
                     </div>
                     <div class="right">
                         <p>
@@ -259,6 +273,6 @@
 </body>
 <script src="./lib/jquery-1.9.1/jquery.min.js"></script>
 <script src="./js/common.js"></script>
-<script src="./js/shopcenter.js"></script>
+<script src="./js/shops.js"></script>
 
 </html>

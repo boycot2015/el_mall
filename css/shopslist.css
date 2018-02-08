@@ -1,0 +1,22 @@
+header {
+    position: relative;
+    background-color: #fff;
+}
+header nav .right>a,header nav .center a{
+    color: #333;
+}
+
+/* banner */
+section.banner {
+    overflow: hidden;
+    position: relative;
+}
+section.banner .pic-box{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+section.banner img{
+    height: 100%;
+    width: auto;
+}

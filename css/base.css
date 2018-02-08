@@ -69,6 +69,7 @@ header {
     /* min-width: 1200px; */
     position: absolute;
     width: 100%;
+    z-index: 99;
     background-color: transparent;
 }
 
