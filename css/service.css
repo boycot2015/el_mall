@@ -14,18 +14,21 @@ section ul.nav>li{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 section ul.nav>li i{
     display: block;
-    height: 4rem;
-    width: 100%;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 auto;
     background: url('../images/service-pic.png') no-repeat center;
+    background-size: 4.1rem 60rem;
 }
 section ul.nav>li:nth-child(1) i{
-    background-position: 0 -168px;
+    background-position: 0 -8.5rem;
 }
 section ul.nav>li:nth-child(2) i{
-    background-position: 0 -515px;
+    background-position: 0 -28.9rem;
 }
 section ul.nav>li span{
    line-height: 2rem;
@@ -45,7 +48,7 @@ section ul.list li img{
     transition: all .5s;
 }
 section ul.list li:hover img{
-    transform: scale(1.2);
+    transform: scale(1.04);
 }
 section ul.list li p{
     position: absolute;
@@ -66,8 +69,10 @@ section ul.list li p{
     text-align: center;
     justify-content: space-around;
     margin: 6rem 0;
+    align-items: center;
     height: 650px;
     width: 100%;
+    padding: 2rem 0;
     background: url('../images/nserv-point.jpg') center no-repeat;
     background-size: cover;
 }
@@ -141,7 +146,6 @@ section ul.list li p{
 .service-point .bottom ul>li>a{
     line-height: 4rem;
     width: 40%;
-    padding-left: 2rem;
     display: block;
     margin: 0 auto;
     color: #FAC208;
@@ -151,15 +155,159 @@ section ul.list li p{
     color: aquamarine;  
 }
 .service-point .bottom ul>li>a:hover::before{
-    background-color: aquamarine;
+    border-color: transparent  transparent transparent aquamarine;
 }
 .service-point .bottom ul>li>a::before{
     content: "";
-    left: 20%;
-    top: 50%;
-    transform: translateY(-50%);
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color:  transparent  transparent transparent #FAC208;
+}
+section.common-question{
+    padding: 1rem 0;
+}
+section.common-question .header{
+    height: 6rem;
+    padding: 0 3%;
+    line-height: 6rem;
+    border-bottom: 1px solid #ccc;        
+}
+section.common-question .header>h3{
+    float: left;
+    font-size: 1.8rem;
+}
+section.common-question .header>form{
+    float: right;
+    width: 50%;
+}
+section.common-question .header>form>input{
+    width: 80%;
+    padding-left: 5%;
+    line-height: 2.8rem;
+    font-size: 1.2rem;
+}
+section.common-question .question-list{
+    width: 100%;
+    padding: 2rem 0;
+}
+section.common-question .question-list li{
+    width: 44%;
+    float: left;
+    padding: 0 3%;
+    margin: .5rem 0;
+    word-spacing: nowrap;
+}
+section.common-question .question-list li>a{
+    font-size: 1.2rem;
+    display: block;
+    position: relative;
+}
+section.common-question .question-list li>a::before{
+    content: "";
     position: absolute;
-    height: 1rem;
-    width: 1rem;
-    background-color: #FAC208;
+    left: -.7rem;
+    top: .5rem;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  transparent  transparent transparent #333;
+}
+section.common-question .question-list li>a::after{
+    content: "";
+    position: absolute;
+    left: -.8rem;
+    top: .5rem;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  transparent  transparent transparent #fff;
+}
+.common-question a.find-more{
+    padding: 0 3%;
+    font-size: 1.4rem;
+    color: #FAC208;
+}
+.common-question a.find-more:hover{
+    text-decoration: underline;
+}
+.common-question a.find-more::before{
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  transparent  transparent transparent #FAC208;
+}
+.service-share{
+    background: url('../images/contactusbg.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 2rem 0;
+}
+.service-share h2{
+    font-size: 2rem;
+    color: #fff;
+    padding: 2rem 0;
+}
+.service-share h2::after{
+    height: 1px;
+    background: #fff;
+    display: block;
+    margin: 1rem auto;
+    width: 8%;
+    content: "";
+}
+.service-share .ways{
+    display: flex;
+    padding: 2rem 6rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-share .ways li a{
+    color: #fff;
+    font-size: 1rem;
+}
+.service-share .ways li a>i{
+    display: block;
+    margin: 0 auto;
+    width: 3rem;
+    height: 3rem;
+    background: url('../images/service-pic.png')no-repeat center;
+    background-size: 4.1rem 60rem;
+}
+.service-share .ways li:nth-child(1) a>i{
+    background-position: 0 -49.9rem;
+}
+.service-share .ways li:nth-child(2) a>i{
+    background-position: 0 -31.9rem;
+}
+.service-share .ways li:nth-child(3) a>i{
+    background-position: 0 -37.9rem;
+}
+.service-share .ways li:nth-child(4) a>i{
+    background-position: 0 -43.9rem;
+}
+
+
+.service-share .ways li:nth-child(1) a>i:hover{
+    background-position: 0 -52.9rem;
+}
+.service-share .ways li:nth-child(2) a>i:hover{
+    background-position: 0 -34.9rem;
+}
+.service-share .ways li:nth-child(3) a>i:hover{
+    background-position: 0 -40.9rem;
+}
+.service-share .ways li:nth-child(4) a>i:hover{
+    background-position: 0 -46.9rem;
+}
+.service-share .ways li a>span{
+    line-height: 3rem;
 }
