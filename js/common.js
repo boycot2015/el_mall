@@ -1,5 +1,5 @@
 $(function () {
-    // $.F_SIZE(1200);
+    $.F_SIZE(3000);
     console.log(window.location.pathname != '/service.html');
     let pathname = window.location.pathname;
 
@@ -26,7 +26,7 @@ $(function () {
     $(window).on('resize', function () {
         autoDisplay();
     })
-    // autoDisplay();
+    autoDisplay();
 
     function autoDisplay() {
         if ($(window).width() <= 960) {
