@@ -265,6 +265,8 @@ section.common-question .question-list li>a::after{
     content: "";
 }
 .service-share .ways{
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     padding: 2rem 6rem;
     justify-content: space-around;

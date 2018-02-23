@@ -39,7 +39,7 @@ main section.part2 {
 }
 main section.part2 .desc{
     position: absolute;
-    top: 28%;
+    top: 35%;
     left: 50%;
     transform: translateX(-50%);
 }

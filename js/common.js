@@ -1,5 +1,5 @@
 $(function () {
-    $.F_SIZE(3000);
+    $.F_SIZE(4800);
     console.log(window.location.pathname != '/service.html');
     let pathname = window.location.pathname;
 
