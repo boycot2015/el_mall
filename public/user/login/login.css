@@ -1,0 +1,105 @@
+
+header{
+    background-color: #fff;
+}
+html,body{
+    height: 100%;
+    background-color: #f5f5f5;    
+}
+main {
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.login-box {
+    width: 360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+@media screen and (max-width:980px){
+    main{
+        padding: 0;
+    }
+    .login-box {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 5%;
+    }
+}
+.login-box .lgheader img{
+    width: 50px;
+    margin-bottom: 20px;
+}
+.login-box .lgheader h3{
+    font-size: 24px;
+}
+.login-box .lgheader{
+    margin-bottom: 30px;
+}
+.login-box .login-area .username,
+.login-box .login-area .password{
+    position: relative;
+    margin: 20px 0;
+    box-sizing: border-box;    
+}
+.login-box .login-area input[type='text'],
+.login-box .login-area input[type='password']{
+    height: 50px;
+    width: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.login-box .login-area label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #666;
+    line-height: 50px;
+    font-size: 16px;
+}
+.login-box .login-area a.found-pass{
+    text-align: right;
+    display: block;
+}
+.login-box .login-area .submit input,
+.login-box .login-area .register-btn input{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    border-radius: 5px;   
+    font-size: 18px; 
+}
+.login-box .login-area .submit input{  
+    background-color:#3BB8BE;
+    color: #fff;
+}
+.login-box .login-area .register-btn input{
+    background-color:#f5f5f5;
+}
+.login-box .login-area .other span{
+    display: block;
+    height: 23px;
+    margin: 10px 0;
+    background: url('../../images/ico_title.png') no-repeat center;
+}
+.login-box .login-area .other .list a{
+    margin: 0 20px;
+}
+.login-box .login-area .other .list a:nth-child(1)>i{
+    color: green;
+}
+.login-box .login-area .other .list a:nth-child(2)>i{
+    color: skyblue;
+}
+.login-box .login-area .other .list a>i{
+    font-size: 40px;
+}
+
+footer .container .footer-wrap{
+    border-top:0;
+}

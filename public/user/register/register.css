@@ -1,0 +1,41 @@
+.register-box.login-box .login-area label{
+    text-align: left;
+    padding-left: 5%;
+    width: 95%;
+}
+.code-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 48px;
+}
+.code-box .code-btn{
+    height: 48px;
+    font-size: 16px;
+    line-height: 48px;
+    flex-basis: 40%;
+
+}
+.code-box input{
+    border-radius: 5px;
+}
+.register-box .protocol{
+    line-height: 50px;
+    margin: 10px;
+    font-size: 16px;
+}
+.code-box .code{
+    flex-basis: 60%;
+    height: 100%;
+    line-height: 48px;
+    font-size: 26px;
+    color: #555;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+}
+.register-box .register-btn>input[type="button"]{
+    background-color: #3BB8BE;
+    color: #fff;
+}

@@ -1,0 +1,160 @@
+
+
+/* 主体部分 */
+
+/* banner */
+/* main section.part1{
+    width: 100%;
+} */
+.swiper-container {
+   height: 100%;
+} 
+.swiper-container img{
+    width: 100%;
+    height: 100%;
+}
+.swiper-button-prev,.swiper-button-next{
+    display: none;
+}
+.swiper-pagination-bullet{
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 2px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.swiper-pagination-bullet a{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+   transform: translateY(100%);
+   background-color: aqua;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 40px;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 10px;
+}
+main section img{
+    width: 100%;
+}
+main section {
+    /* min-width: 120rem;     */
+}
+main section.part1 .banner a>img {
+    width: 100%;
+}
+
+main section.part1 .activity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+main section.part1 .activity a{
+    position: relative;
+    width: 30%;
+}
+main section.part1 .activity h3{
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    font-size: 2.4rem;
+}
+main section.part1 .activity img{
+    width: 100%;
+}
+main section.part2 {
+    position: relative;
+}
+main section.part2 .desc{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+main section.part2 .desc h2{
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+}
+main section.part2 .desc p{
+    font-size: 2.4rem;
+    margin: 1rem 0;
+    color: #fff;
+}
+main section.part2 .desc a{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding: .6rem 0;
+    text-align: center;
+    font-size: 2.4rem;
+    color: #fff;
+    border: 1px solid #FAC208;
+    background-color: #FAC208;
+    transition: all .3s .2s;
+    box-sizing: border-box;
+}
+main section.part2 .desc a:hover{
+    background-color: transparent;
+    border: 1px solid #FAC208;
+    color: #FAC208;
+}
+main section.part3 {
+    padding:3% 0;
+    background-color: #f5f5f5;
+}
+main section.part3 .news{
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+main section.part3 .news li{
+    width: 30%;
+    margin: 3% 0;
+    background-color: #fff;
+    overflow: hidden;
+    transition: all .4s;
+}
+@media screen and (max-width:980px){
+    main section.part3 .news li{
+        width: 100%;
+    }
+    main section.part1 .activity a{
+        width: 100%;
+    }
+}
+main section.part3 .news li:hover{
+    box-shadow: 0px 1rem 3rem #ccc;
+    transform: translateY(-0.2rem);
+}
+main section.part3 .news li a{
+    display: block;
+}
+main section.part3 .news li a .text{
+    padding: 2rem;
+}
+main section.part3 .news li a .text p{
+    line-height: 4rem;
+    font-size: 2.2rem;
+}
+main section.part3 .news li a .text span{
+    display: block;
+    margin: 1.8rem 0;
+}
+footer .container .footer-wrap{
+    border-top: 1px solid #ccc;        
+}
+
+

@@ -1,0 +1,316 @@
+header nav .right>a,
+header nav .center>.list>li>a{
+    color: #333;
+}
+
+section ul.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+    padding: 2rem 0;
+}
+section ul.nav>li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+section ul.nav>li i{
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 auto;
+    background: url('../images/service-pic.png') no-repeat center;
+    background-size: 4.1rem 60rem;
+}
+section ul.nav>li:nth-child(1) i{
+    background-position: 0 -8.5rem;
+}
+section ul.nav>li:nth-child(2) i{
+    background-position: 0 -28.9rem;
+}
+section ul.nav>li span{
+   line-height: 2rem;
+   font-size: 14px;
+}
+section ul.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section ul.list li{
+    margin: 0 1rem;
+    overflow: hidden;
+    position: relative;
+}
+section ul.list li img{
+    transition: all .5s;
+}
+section ul.list li:hover img{
+    transform: scale(1.04);
+}
+section ul.list li p{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    color: #fff;
+    font-size: 1.4rem;
+    transform: translateY(-50%);
+}
+@media screen and(max-width:640px){
+    .service-point{
+        background: url('../images/nserv-point.jpg') center top no-repeat;
+    } 
+}
+.service-point{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin: 6rem 0;
+    align-items: center;
+    height: 650px;
+    width: 100%;
+    padding: 2rem 0;
+    background: url('../images/nserv-point.jpg') center no-repeat;
+    background-size: cover;
+}
+.service-point .top{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    margin: 2rem auto;
+}
+.service-point .top>.search{
+    width: 100%;
+}
+.service-point .top>.search>a{
+    padding: .8rem 0;
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    color: #FAC208;
+    border: 1px solid #FAC208;
+    transition: all .5s;
+}
+.service-point .top>.search>a:hover{
+    background-color: #FAC208;
+    color: #fff;
+}
+.service-point .top>h2{
+    font-size: 2.6rem;
+    font-weight: normal;
+}
+.service-point .top p{
+    font-size: 1.2rem;
+}
+.service-point .top span{
+    height: .1rem;
+    background-color: #333;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+.service-point .bottom{
+    flex: 2;
+}
+.service-point .bottom ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-point .bottom ul>li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff;
+    margin: 0 .1rem;
+    padding: 2rem 1rem;
+}
+.service-point .bottom ul>li>img{
+    width: 4rem;
+    display: block;
+    margin: 0 auto;
+}
+.service-point .bottom ul>li>h4{
+    font-size: 1.4rem;
+    line-height: 4rem;
+}
+.service-point .bottom ul>li>p{
+    padding: 1.4rem 0;
+    font-size: 1.1rem;
+}
+.service-point .bottom ul>li>a{
+    line-height: 4rem;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    color: #FAC208;
+    position: relative;
+}
+.service-point .bottom ul>li>a:hover{
+    color: aquamarine;  
+}
+.service-point .bottom ul>li>a:hover::before{
+    border-color: transparent  transparent transparent aquamarine;
+}
+.service-point .bottom ul>li>a::before{
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color:  transparent  transparent transparent #FAC208;
+}
+section.common-question{
+    padding: 1rem 0;
+}
+section.common-question .header{
+    height: 6rem;
+    padding: 0 3%;
+    line-height: 6rem;
+    border-bottom: 1px solid #ccc;        
+}
+section.common-question .header>h3{
+    float: left;
+    font-size: 1.8rem;
+}
+section.common-question .header>form{
+    float: right;
+    width: 50%;
+}
+section.common-question .header>form>input{
+    width: 80%;
+    padding-left: 5%;
+    line-height: 2.8rem;
+    font-size: 1.2rem;
+}
+section.common-question .question-list{
+    width: 100%;
+    padding: 2rem 0;
+}
+section.common-question .question-list li{
+    width: 44%;
+    float: left;
+    padding: 0 3%;
+    margin: .5rem 0;
+    word-spacing: nowrap;
+}
+section.common-question .question-list li>a{
+    font-size: 1.2rem;
+    display: block;
+    position: relative;
+}
+section.common-question .question-list li>a::before{
+    content: "";
+    position: absolute;
+    left: -.7rem;
+    top: .5rem;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  transparent  transparent transparent #333;
+}
+section.common-question .question-list li>a::after{
+    content: "";
+    position: absolute;
+    left: -.8rem;
+    top: .5rem;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  transparent  transparent transparent #fff;
+}
+.common-question a.find-more{
+    padding: 0 3%;
+    font-size: 1.4rem;
+    color: #FAC208;
+}
+.common-question a.find-more:hover{
+    text-decoration: underline;
+}
+.common-question a.find-more::before{
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  transparent  transparent transparent #FAC208;
+}
+.service-share{
+    background: url('../images/contactusbg.jpg') no-repeat center center;
+    background-size: cover;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 2rem 0;
+}
+.service-share h2{
+    font-size: 2rem;
+    color: #fff;
+    padding: 2rem 0;
+}
+.service-share h2::after{
+    height: 1px;
+    background: #fff;
+    display: block;
+    margin: 1rem auto;
+    width: 8%;
+    content: "";
+}
+.service-share .ways{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 2rem 6rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.service-share .ways li a{
+    color: #fff;
+    font-size: 1rem;
+}
+.service-share .ways li a>i{
+    display: block;
+    margin: 0 auto;
+    width: 3rem;
+    height: 3rem;
+    background: url('../images/service-pic.png')no-repeat center;
+    background-size: 4.1rem 60rem;
+}
+.service-share .ways li:nth-child(1) a>i{
+    background-position: 0 -49.9rem;
+}
+.service-share .ways li:nth-child(2) a>i{
+    background-position: 0 -31.9rem;
+}
+.service-share .ways li:nth-child(3) a>i{
+    background-position: 0 -37.9rem;
+}
+.service-share .ways li:nth-child(4) a>i{
+    background-position: 0 -43.9rem;
+}
+
+
+.service-share .ways li:nth-child(1) a>i:hover{
+    background-position: 0 -52.9rem;
+}
+.service-share .ways li:nth-child(2) a>i:hover{
+    background-position: 0 -34.9rem;
+}
+.service-share .ways li:nth-child(3) a>i:hover{
+    background-position: 0 -40.9rem;
+}
+.service-share .ways li:nth-child(4) a>i:hover{
+    background-position: 0 -46.9rem;
+}
+.service-share .ways li a>span{
+    line-height: 3rem;
+}
